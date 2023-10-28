@@ -12,7 +12,7 @@ body {
 
 header {
   background-color: #1f2937;
-  height: 500px;  
+  height: 530px;  
   margin: 0 auto;
 }
 
@@ -67,7 +67,8 @@ header {
 .header-content p {
   font-size: 20px;
   color: #e5e7ebd0;
-  margin: 8px 0;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
 
 .header-img {
@@ -76,10 +77,19 @@ header {
   flex-basis: 600px;
   font-size: 20px;
   color: #e5e7ebd0;  
-}
-
-.header-img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.signup-btn {    
+  display: inline-block;
+  background-color: #3882f6;  
+  color: #f1f6fe;
+  padding: 12px 32px;
+  border: 0;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 8px;
+  text-decoration: none;
 }
