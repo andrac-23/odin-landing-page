@@ -18,7 +18,7 @@ header {
 
 .header-nav .logo-placeholder {
   font-size: 26px;
-  font-weight: 900;
+  font-weight: 700;
   color: #f9faf8;
 }
 
@@ -29,11 +29,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  margin-bottom: 110px;
 }
 
 .header-nav ul {
   margin: 0px;
-  padding: 0px 15px;
+  padding-left: 15px;
   list-style: none;
   display: flex;  
   gap: 25px;
@@ -43,4 +44,28 @@ header {
   text-decoration: none;
   font-size: 20px;
   color: #e5e7ebd0;
+}
+
+.header-content {
+  max-width: 71vw;
+  margin: 0px auto;
+  display: flex;
+}
+
+.header-content h1 {  
+  font-size: 50px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.header-img {
+  background-color: #6d747d;
+  height: 250px;
+  flex-basis: 600px;  
+}
+
+.header-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
