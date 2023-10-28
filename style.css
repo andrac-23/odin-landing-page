@@ -50,18 +50,32 @@ header {
   max-width: 71vw;
   margin: 0px auto;
   display: flex;
+  gap: 50px;
+}
+
+.header-text {
+  max-width: 32vw;
 }
 
 .header-content h1 {  
   font-size: 50px;
   font-weight: 900;
   color: #f9faf8;
+  margin: 0px;
+}
+
+.header-content p {
+  font-size: 20px;
+  color: #e5e7ebd0;
+  margin: 8px 0;
 }
 
 .header-img {
   background-color: #6d747d;
   height: 250px;
-  flex-basis: 600px;  
+  flex-basis: 600px;
+  font-size: 20px;
+  color: #e5e7ebd0;  
 }
 
 .header-img {
