@@ -42,9 +42,15 @@ header {
 }
 
 .header-nav li a {
-  text-decoration: none;
+  text-decoration-color: transparent;
+  text-underline-offset: 8px;
   font-size: 20px;
   color: #e5e7ebd0;
+  transition: text-decoration-color 0.3s ease-in-out;
+}
+
+.header-nav a:hover {  
+  text-decoration-color: #e5e7ebd0;  
 }
 
 .header-content {
@@ -93,6 +99,7 @@ header {
   font-size: 18px;
   border-radius: 8px;
   text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
 }
 
 main {
@@ -201,4 +208,8 @@ footer h3 {
   margin: 0px;
   font-weight: 200;
   font-size: 16px;
+}
+
+.signup-btn:hover {
+  background-color: #1154c0;
 }
