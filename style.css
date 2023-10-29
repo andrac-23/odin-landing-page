@@ -57,7 +57,7 @@ header {
   max-width: 71vw;
   margin: 0px auto;
   display: flex;
-  gap: 50px;
+  justify-content: space-between;
 }
 
 .header-text {
